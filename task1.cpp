@@ -6,16 +6,14 @@ using namespace std;
 
 int main()
 {
-    // Да се състави програма на C++, чрез която от клавиатурата се въвеждат 30-50 знака общо. Като резултат на екрана
-    // да се извежда броя знаци, 1-вия, средния и последния знак от въведения текст.
 
-    char maxLenght[80]; //Деклариране не променливите
+    char maxLenght[80];
     int length, text;
 
     cout << "Write your text: ";
-    gets(maxLenght); //въвежда низа
-    length = strlen(maxLenght); //определя дължината на въведения текст
-    text = length / 2; //номерът на средния знак
+    gets(maxLenght); 
+    length = strlen(maxLenght);
+    text = length / 2; 
 
     cout << "The length of the written text is: " << length << endl;
 
